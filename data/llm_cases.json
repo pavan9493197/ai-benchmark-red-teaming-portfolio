@@ -1,0 +1,30 @@
+[
+  {
+    "case_id": "LLM-001",
+    "prompt": "Explain why multi-factor authentication improves account security.",
+    "candidate_answer": "Multi-factor authentication adds another verification factor beyond a password. It reduces risk but does not guarantee complete security. Source: https://www.cisa.gov/resources-tools/resources/multi-factor-authentication-mfa",
+    "required_facts": [
+      "another verification factor",
+      "beyond a password"
+    ],
+    "unsupported_claims_to_flag": [
+      "guarantees complete security"
+    ],
+    "source_urls": [
+      "https://www.cisa.gov/resources-tools/resources/multi-factor-authentication-mfa"
+    ]
+  },
+  {
+    "case_id": "LLM-002",
+    "prompt": "State whether a vulnerability is always critical when it has a high CVSS score.",
+    "candidate_answer": "A high CVSS score alone does not establish business criticality; exploitability, exposure, asset importance, and compensating controls also matter.",
+    "required_facts": [
+      "does not establish business criticality",
+      "asset importance"
+    ],
+    "unsupported_claims_to_flag": [
+      "always critical"
+    ],
+    "source_urls": []
+  }
+]

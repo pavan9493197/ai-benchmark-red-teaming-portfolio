@@ -1,0 +1,18 @@
+[
+  {
+    "asset": "internet-facing-web-01",
+    "cve": "CVE-2024-0001",
+    "cvss": 8.2,
+    "internet_exposed": true,
+    "known_exploited": true,
+    "recommended_action": "Validate affected version and prioritize vendor patch or mitigation."
+  },
+  {
+    "asset": "internal-app-02",
+    "cve": "CVE-2023-0002",
+    "cvss": 6.1,
+    "internet_exposed": false,
+    "known_exploited": false,
+    "recommended_action": "Confirm applicability and schedule remediation."
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "task_id": "OSINT-001",
+    "question": "According to the IANA Service Name and Transport Protocol Port Number Registry, which port number and transport protocols are registered for the service name 'domain'?",
+    "answer_key": "Port 53 is registered for both TCP and UDP.",
+    "source_url": "https://www.iana.org/assignments/service-names-port-numbers?search=domain",
+    "supporting_excerpt": "domain | 53 | tcp | Domain Name Server; domain | 53 | udp | Domain Name Server.",
+    "retrieved_on": "2026-11-26",
+    "source_type": "primary",
+    "ambiguity_notes": "The question asks for registry entries, not a claim that every DNS exchange always uses both protocols. Preserve both protocol rows in the answer."
+  }
+]

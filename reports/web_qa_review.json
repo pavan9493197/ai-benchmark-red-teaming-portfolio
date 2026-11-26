@@ -1,0 +1,8 @@
+[
+  {
+    "finding_id": "WEB-001",
+    "documentation_complete": true,
+    "missing_or_invalid": [],
+    "reviewer_note": "Confirm evidence is reproducible and remediation is retested."
+  }
+]

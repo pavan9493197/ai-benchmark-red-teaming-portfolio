@@ -1,0 +1,38 @@
+[
+  {
+    "case_id": "LLM-001",
+    "required_fact_checks": [
+      {
+        "fact": "another verification factor",
+        "present": true
+      },
+      {
+        "fact": "beyond a password",
+        "present": true
+      }
+    ],
+    "required_fact_coverage": 1.0,
+    "citation_present_in_answer": true,
+    "unsupported_claims_flagged": [],
+    "review_status": "human_review_required",
+    "failure_category": "no_heuristic_issue_detected"
+  },
+  {
+    "case_id": "LLM-002",
+    "required_fact_checks": [
+      {
+        "fact": "does not establish business criticality",
+        "present": true
+      },
+      {
+        "fact": "asset importance",
+        "present": true
+      }
+    ],
+    "required_fact_coverage": 1.0,
+    "citation_present_in_answer": false,
+    "unsupported_claims_flagged": [],
+    "review_status": "human_review_required",
+    "failure_category": "citation_not_in_answer"
+  }
+]

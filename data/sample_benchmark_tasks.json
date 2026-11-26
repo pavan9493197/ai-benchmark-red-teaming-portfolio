@@ -1,0 +1,12 @@
+[
+  {
+    "task_id": "RB-EXAMPLE-001",
+    "question": "According to the cited official documentation, what is the documented default port for the example service?",
+    "answer_key": "Replace with a verified answer before publication.",
+    "source_url": "https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml",
+    "supporting_excerpt": "Illustrative task record only. Locate the exact service entry and quote the relevant official registry text before treating this as a valid benchmark.",
+    "retrieved_on": "2026-11-26",
+    "ambiguity_notes": "Example only; specify transport protocol and exact service name. Independently verify the answer.",
+    "source_type": "primary"
+  }
+]

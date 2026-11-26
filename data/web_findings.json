@@ -1,0 +1,12 @@
+[
+  {
+    "finding_id": "WEB-001",
+    "title": "Potential reflected input handling weakness",
+    "affected_component": "Search parameter on test application",
+    "evidence": "Synthetic lab evidence: marker string reflected in response without context-aware encoding.",
+    "severity": "Medium",
+    "impact": "May enable client-side script execution if exploitable in a browser context.",
+    "remediation": "Apply context-aware output encoding and validate input; add regression tests.",
+    "retest_status": "Pending"
+  }
+]

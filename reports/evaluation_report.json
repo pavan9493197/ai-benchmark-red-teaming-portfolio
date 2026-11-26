@@ -1,0 +1,24 @@
+[
+  {
+    "task_id": "EVAL-001",
+    "scores": {
+      "reference_token_overlap": 0.688,
+      "required_fact_coverage": 0.5,
+      "has_citation": true,
+      "unsupported_marker_count": 0
+    },
+    "required_facts": [
+      {
+        "fact": "additional verification factor",
+        "present": false
+      },
+      {
+        "fact": "beyond a password",
+        "present": true
+      }
+    ],
+    "unsupported_markers_found": [],
+    "weighted_score": 0.672,
+    "review_note": "Heuristic screening only; human review is required."
+  }
+]
